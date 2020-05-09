@@ -69,7 +69,7 @@ jobs:
 
       - if: matrix.os == 'windows-latest'
         name: "(Windows) [Test] copy latest binary"
-        run: cp ${{ steps.atdgen-path-nix.outputs.path }} .\node_modules\@jchavarri\bs-atdgen-generator\atdgen.exe
+        run: cp ${{ steps.atdgen-path-win.outputs.path }} .\node_modules\@jchavarri\bs-atdgen-generator\atdgen.exe
         working-directory: test
 
       - name: "[Test] npm run build"
