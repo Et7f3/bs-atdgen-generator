@@ -48,7 +48,7 @@ jobs:
       - name: "[Test] npm run build"
         run: |
           npx atdgen -bs src/atd/Foo.atd
-          ls -R node_modules/@jchavarri/bs-atdgen-generator
+          echo ls -R node_modules/@jchavarri/bs-atdgen-generator
           npm run build
         working-directory: test
         shell: bash
