@@ -18,11 +18,11 @@
         {
           "name": "atd_t",
           "edge": ["Foo_t.ml", "Foo_t.mli", ":", "Foo.atd"]
-        },
-        {
-          "name": "atd_bs",
-          "edge": ["Foo_bs.ml", "Foo_bs.mli", ":", "Foo.atd"]
-        }
+        }//,
+       // {
+      //    "name": "atd_bs",
+     //     "edge": ["Foo_bs.ml", "Foo_bs.mli", ":", "Foo.atd"]
+     //   }
       ]
     }
   ],
