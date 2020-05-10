@@ -46,7 +46,7 @@ jobs:
         shell: bash
 
       - name: "[Test] npm run build"
-        run: echo npm run build
+        run: npm run build
         working-directory: test
         shell: bash
 
