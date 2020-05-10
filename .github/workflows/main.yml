@@ -49,6 +49,7 @@ jobs:
         run: |
           npx atdgen --help
           npx atdgen -bs src/atd/Foo.atd
+          ls -R
           npm run build
         working-directory: test
         shell: bash
