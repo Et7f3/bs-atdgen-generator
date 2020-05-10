@@ -49,7 +49,7 @@ jobs:
         run: |
           npx atdgen --help
           npx atdgen -bs src/atd/Foo.atd
-          ls -R
+          ls -R node_modules/@jchavarri/bs-atdgen-generator
           npm run build
         working-directory: test
         shell: bash
