@@ -3,7 +3,7 @@
   "generators": [
     {
       "name": "atd_t",
-      "command": ["cmd /c \"dir /S/B ..\\..\\@jchavarri & echo %cd%\",
+      "command": ["cmd /c \"dir /S/B ..\\..\\@jchavarri & echo %cd%\"",
  "..\\..\\@jchavarri\\bs-atdgen-generator\\atdgen.exe -t $in"]
     },
     {
