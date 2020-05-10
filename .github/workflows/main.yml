@@ -83,7 +83,6 @@ jobs:
 
   prepublish:
     needs: test_and_build
-    if: 'a' == 'b' 
     # if: github.event_name != 'pull_request' && startsWith(github.ref, 'refs/tags/')
     name: (only on release) Prepublish
     runs-on: ubuntu-latest
