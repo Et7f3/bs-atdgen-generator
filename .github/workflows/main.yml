@@ -47,7 +47,7 @@ jobs:
 
       - name: "[Test] npm run build"
         run: |
-          npx adtgen --help
+          npx atdgen --help
           npm run build
         working-directory: test
         shell: bash
